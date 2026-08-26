@@ -16,8 +16,8 @@ Create Table bronze.crm_cust_info(
 	cst_key	            NVarChar(50),
 	cst_firstname       NVarChar(50),
 	cst_lastname        NVarChar(50),
-	cst_marital_status	NVarChar(1),
-	cst_gndr            NVarChar(1),
+	cst_marital_status	NVarChar(10),
+	cst_gndr            NVarChar(10),
 	cst_create_date     Date
 );
 
