@@ -75,5 +75,5 @@ Create table Bronze.erp_PX_CAT_G1V2(
 ID	         Varchar(30),
 CAT	         Varchar(30),
 SUBCAT       Varchar(30),
-MAINTENANCE  Varchar(10),
+MAINTENANCE  Varchar(10)
 ); 
