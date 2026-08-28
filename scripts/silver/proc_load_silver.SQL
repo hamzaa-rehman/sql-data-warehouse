@@ -202,6 +202,9 @@ BEGIN
 		print'>>-------------------------';
 		
 		set @start_time=getdate()
+		print'>>Truncating Table: silver.erp_PX_CAT_G1V2 ';
+		Truncate table silver.erp_PX_CAT_G1V2  ;
+		print'>> Inserting Data Into: silver.PX_CAT_G1V2';
 		insert into silver.erp_PX_CAT_G1V2 (
 		ID,CAT,subcat,maintenance)
 		select 
