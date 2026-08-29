@@ -6,6 +6,18 @@ This project demonstrates the design and implementation of a modern SQL-based da
 
 Built as a hands-on portfolio project, it demonstrates practical concepts in data warehousing, data transformation, integration, and dimensional modeling.
 
+## 📑 Table of Contents
+
+- [Data Architecture](#-data-architecture)
+- [Data Flow & Integration](#-data-flow--integration)
+- [Data Mart](#-data-mart-star-schema)
+- [Project Overview](#-project-overview)
+- [Tools & Technologies](#-tools--technologies)
+- [Project Requirements](#-project-requirements)
+- [Repository Structure](#-repository-structure)
+- [Future Enhancements](#-future-enhancements)
+- [About Me](#-about-me)
+
 ---
 
 ## 🏗️ Data Architecture
