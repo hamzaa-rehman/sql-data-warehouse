@@ -4,19 +4,21 @@ Welcome to my **SQL Data Warehouse Project** repository! 🚀
 
 This project demonstrates the design and implementation of a modern SQL-based data warehouse, transforming raw CRM and ERP data into clean, integrated, and business-ready data models.
 
-Built as a hands-on portfolio project, it demonstrates practical concepts in data warehousing, data transformation, integration, and dimensional modeling.
+Built as a hands-on portfolio project, it demonstrates practical concepts in data warehousing, data transformation, data integration, data quality, and dimensional modeling.
+
+---
 
 ## 📑 Table of Contents
 
-- [Data Architecture](#-data-architecture)
-- [Data Flow & Integration](#-data-flow--integration)
-- [Data Mart](#-data-mart-star-schema)
-- [Project Overview](#-project-overview)
-- [Tools & Technologies](#-tools--technologies)
-- [Project Requirements](#-project-requirements)
-- [Repository Structure](#-repository-structure)
-- [Future Enhancements](#-future-enhancements)
-- [About Me](#-about-me)
+* [Data Architecture](#-data-architecture)
+* [Data Flow & Integration](#-data-flow--integration)
+* [Data Mart](#-data-mart-star-schema)
+* [Project Overview](#-project-overview)
+* [Tools & Technologies](#-tools--technologies)
+* [Project Requirements](#-project-requirements)
+* [Repository Structure](#-repository-structure)
+* [Future Enhancements](#-future-enhancements)
+* [About Me](#-about-me)
 
 ---
 
@@ -24,16 +26,11 @@ Built as a hands-on portfolio project, it demonstrates practical concepts in dat
 
 The data architecture for this project follows the **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers:
 
-<!-- Add data architecture image here -->
-
-<!-- ![Data Architecture](docs/diagrams/data_architecture.png) -->
+![Data Architecture](docs/diagrams/data_architecture.png)
 
 1. **Sources**: Raw CSV files from two source systems — **CRM** and **ERP**.
-
 2. **Bronze Layer**: Raw source data is loaded into SQL Server tables with minimal transformation.
-
 3. **Silver Layer**: Data is cleaned, standardized, normalized, and prepared for integration.
-
 4. **Gold Layer**: Business-ready data is modeled using fact and dimension views for analytical consumption.
 
 ---
@@ -44,19 +41,15 @@ The project documents how data moves from source systems through the warehouse l
 
 ### Data Flow Diagram
 
+![Data Flow Diagram](docs/diagrams/data_flow_diagram.png)
+
 Shows how source data moves through the **Bronze → Silver → Gold** layers.
-
-<!-- Add data flow diagram image here -->
-
-<!-- ![Data Flow Diagram](docs/diagrams/data_flow_diagram.png) -->
 
 ### Integration Model
 
+![Integration Model](docs/diagrams/integration_model.png)
+
 Shows how CRM and ERP data is related and integrated to create unified business entities.
-
-<!-- Add integration model image here -->
-
-<!-- ![Integration Model](docs/diagrams/integration_model.png) -->
 
 ---
 
@@ -68,11 +61,9 @@ The Gold layer is modeled using a **Star Schema**, consisting of:
 * `gold.dim_customers`
 * `gold.dim_products`
 
+![Data Mart](docs/diagrams/data_mart.png)
+
 The fact view connects to the dimension views using surrogate keys.
-
-<!-- Add data mart image here -->
-
-<!-- ![Data Mart](docs/diagrams/data_mart.png) -->
 
 ---
 
@@ -81,17 +72,11 @@ The fact view connects to the dimension views using surrogate keys.
 This project involves:
 
 1. **Data Architecture**: Designing a modern data warehouse using the Medallion Architecture.
-
 2. **Data Ingestion**: Loading CRM and ERP source data into the Bronze layer.
-
 3. **Data Transformation**: Cleaning, standardizing, and transforming data in the Silver layer.
-
 4. **Data Integration**: Combining related data from multiple source systems into unified business entities.
-
 5. **Data Modeling**: Developing fact and dimension objects using a Star Schema in the Gold layer.
-
 6. **Data Quality**: Performing SQL-based quality checks to validate data and relationships.
-
 7. **Documentation**: Creating architecture, data flow, integration, and data mart diagrams, along with a data catalog and naming conventions.
 
 🎯 This project demonstrates practical skills in:
@@ -158,9 +143,13 @@ sql-data-warehouse/
 ├── docs/                               # Project documentation
 │   ├── diagrams/                       # Architecture and data model diagrams
 │   │   ├── data_architecture.drawio
+│   │   ├── data_architecture.png
 │   │   ├── data_flow_diagram.drawio
+│   │   ├── data_flow_diagram.png
 │   │   ├── data_mart.drawio
-│   │   └── integration_model.drawio
+│   │   ├── data_mart.png
+│   │   ├── integration_model.drawio
+│   │   └── integration_model.png
 │   │
 │   ├── data_catalog.md                 # Gold layer data catalog
 │   └── naming_conventions.md           # Project naming conventions
@@ -207,7 +196,10 @@ Hi, I'm **Hamza Rehman**, focused on building practical skills in **SQL, Data An
 
 This project represents my hands-on work in designing and implementing a SQL Data Warehouse, including data ingestion, transformation, integration, dimensional modeling, data quality validation, and technical documentation.
 
-Let's connect:
+### Let's Connect
 
-* [LinkedIn](https://www.linkedin.com/in/syed-hamza-rehman-454534292/)
-* [GitHub](https://github.com/hamzaa-rehman)
+* **LinkedIn:** [Hamza Rehman](https://www.linkedin.com/in/syed-hamza-rehman-454534292/)
+* **GitHub:** [hamzaa-rehman](https://github.com/hamzaa-rehman)
+
+```
+```
