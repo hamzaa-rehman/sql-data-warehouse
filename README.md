@@ -196,10 +196,11 @@ Hi, I'm **Hamza Rehman**, focused on building practical skills in **SQL, Data An
 
 This project represents my hands-on work in designing and implementing a SQL Data Warehouse, including data ingestion, transformation, integration, dimensional modeling, data quality validation, and technical documentation.
 
-### Let's Connect
+### Connect with Me
 
-* **LinkedIn:** [Hamza Rehman](https://www.linkedin.com/in/syed-hamza-rehman-454534292/)
-* **GitHub:** [hamzaa-rehman](https://github.com/hamzaa-rehman)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/syed-hamza-rehman-454534292/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/hamzaa-rehman)
 
 ```
 ```
